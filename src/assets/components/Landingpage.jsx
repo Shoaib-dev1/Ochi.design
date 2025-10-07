@@ -8,9 +8,14 @@ const Landingpage = () => {
         <div className='LandingPageText mt-40 px-20'>
          {["We Create", "Eye-Opening","Presentaions"].map((item,index) =>{
           return <div className='masker'>
-                       <h1 className='uppercase text-8xl font-bold leading-[5.5vw]tracking-tighter'>
-                        {item}
-                       </h1>
+                      <div className='w-fit flex items-center overflow-hidden'>
+                          {index === 1 && ( <div className='w-30 h-20 rounded mt-[2vh] '>
+                            <img className='w-full h-full  object-cover rounded' src="https://ochi.design/wp-content/uploads/2022/04/content-image01.jpg" alt="" />
+                          </div>)}
+                          <h1 className='uppercase flex items-center text-[7vw] font-bold leading-[5.8vw] tracking-tighter font-[Founders Grotesk]'>
+                              {item}
+                         </h1>
+                      </div>
                  </div>
          })}
             <div className='border-t-[1px] border-zinc-700  mt-40  flex justify-between items-center pt-5 '>
