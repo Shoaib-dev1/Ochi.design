@@ -1,7 +1,5 @@
 import React from 'react'
-
-
-
+import { FaArrowRight } from "react-icons/fa6";
 
 
 const Landingpage = () => {
@@ -25,8 +23,10 @@ const Landingpage = () => {
                      <div className='uppercase font-light text-md  tracking-tight border-[1px] border-zinc-500 rounded-full w-[11vw] h-[4.5vh] text-center corsor-pointer '>
                                start the project
                     </div>
-                    <div className='w-8  h-8  border-[1px] border-zinc-500 rounded-full '>
-                          
+                    <div className='w-8  h-8  border-[1px] border-zinc-500 rounded-full flex justify-center items-center corsor-pointer '>
+                        <span className='-rotate-50 '>
+                             <FaArrowRight/>
+                        </span>
                     </div>
               </div>
             </div>
