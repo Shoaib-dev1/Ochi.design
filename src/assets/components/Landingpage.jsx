@@ -12,7 +12,7 @@ const Landingpage = () => {
                           {index === 1 && ( <div className='w-30 h-20 rounded mt-[2vh] '>
                             <img className='w-full h-full  object-cover rounded' src="https://ochi.design/wp-content/uploads/2022/04/content-image01.jpg" alt="" />
                           </div>)}
-                          <h1 className='uppercase flex items-center text-[7vw] font-bold leading-[5.8vw] tracking-tighter font-[Founders Grotesk]'>
+                          <h1 className='uppercase flex items-center text-[7vw] font-semibold leading-[5.8vw] tracking-tighter font-[Founders Grotesk]  '>
                               {item}
                          </h1>
                       </div>
