@@ -5,7 +5,7 @@ import { FaArrowRight } from "react-icons/fa6";
 const Landingpage = () => {
   return (
     <div className='w-full h-screen bg-zinc-900 pt-2'>
-        <div className='LandingPageText mt-40 px-20'>
+        <div className='w-full LandingPageText mt-40 px-20'>
          {["We Create", "Eye-Opening","Presentaions"].map((item,index) =>{
           return <div className='masker'>
                       <div className='w-fit flex items-center overflow-hidden'>
@@ -18,7 +18,7 @@ const Landingpage = () => {
                       </div>
                  </div>
          })}
-            <div className='border-t-[1px] border-zinc-700  mt-40  flex justify-between items-center pt-5 '>
+            <div className='max-w-full border-t-[1px] border-zinc-700  mt-40  flex justify-between items-center pt-5 '>
               {["Presentation and storytelling agency", "For innovation teams and global brands"].map((item,index) =>(
                 <p className='font-light text-md leading-none tracking-tight'>
                   {item}
