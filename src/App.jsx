@@ -3,6 +3,8 @@ import Navbar from './assets/components/Navbar'
 import Landingpage from './assets/components/Landingpage'
 import Marquee from './assets/components/Marquee'
 import About from './assets/components/About'
+import PlayEyes from './assets/components/PlayEyes'
+import FeaturedProjects from './assets/components/FeaturedProjects'
 
 const App = () => {
   return (
@@ -11,6 +13,8 @@ const App = () => {
         <Landingpage />
         <Marquee />
         <About />
+        <PlayEyes />
+       <FeaturedProjects />
     </div>
   )
 }
