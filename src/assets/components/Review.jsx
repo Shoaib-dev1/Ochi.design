@@ -115,7 +115,7 @@ const Review = () => {
                           <button className='absolute  py-1 px-3 border-[1px] border-zinc-100 rounded-full uppercase left-10 bottom-10 '>Rating5.0 On Clutch</button>
                       </div>
                       <div className=' w-1/2 h-full relative flex items-center justify-center bg-[#212121] rounded-xl '>
-                          <img className='w-[8vw] h-[15vh]' src="https://ochi.design/wp-content/uploads/2022/04/logo003.png" alt="" />
+                          <img className='w-[8vw] h-[17vh]' src="https://ochi.design/wp-content/uploads/2022/04/logo003.png" alt="" />
                           <button className='absolute  py-1 px-3 border-[1px] border-zinc-100 rounded-full uppercase left-10 bottom-10 '>Business Bootcamp Alumni</button>
                       </div>
                   </div>

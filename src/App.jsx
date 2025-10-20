@@ -6,6 +6,8 @@ import About from './assets/components/About';
 import PlayEyes from './assets/components/PlayEyes';
 import FeaturedProjects from './assets/components/FeaturedProjects';
 import Review from './assets/components/Review';
+import Footer from './assets/components/Footer';
+
 
 const App = () => {
   return (
@@ -17,6 +19,8 @@ const App = () => {
       <PlayEyes />
       <FeaturedProjects />
       <Review />
+      
+      <Footer />
     </div>
   );
 };
