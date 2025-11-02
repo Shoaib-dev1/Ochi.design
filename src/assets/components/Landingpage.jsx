@@ -2,7 +2,6 @@ import { motion } from 'framer-motion';
 import React from 'react';
 import { FaArrowRight } from 'react-icons/fa6';
 
-
 const Landingpage = () => {
   return (
     <div className="w-full mb-[10vh] bg-zinc-900 pt-2">
@@ -39,11 +38,11 @@ const Landingpage = () => {
               {item}
             </p>
           ))}
-          <div className="button flex items-cneter gap-2">
-            <div className="uppercase font-light text-md  tracking-tight border-[1px] border-zinc-500 rounded-full w-[11vw] h-[4.5vh] text-center cursor-pointer ">
+          <div className="landing-button flex items-cneter gap-2">
+            <div className=" landing-bt uppercase font-light text-md  tracking-tight border-[1px] border-zinc-500 rounded-full w-[11vw] h-[4.5vh] text-center cursor-pointer ">
               start the project
             </div>
-            <div className="w-8  h-8  border-[1px] border-zinc-500 rounded-full flex justify-center items-center cursor-pointer ">
+            <div className=" landing-bt-icon w-8  h-8  border-[1px] border-zinc-500 rounded-full flex justify-center items-center cursor-pointer ">
               <span className="-rotate-50 ">
                 <FaArrowRight />
               </span>

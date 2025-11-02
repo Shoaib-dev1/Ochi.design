@@ -1,7 +1,9 @@
 import React from 'react'
+import { FaArrowRight } from 'react-icons/fa6';
 
 const FeaturedProjects = () => {
     return (
+
         <div className='w-full'>
 
             <div className='w-full px-20 boder-b-[1px] border-zinc-700 py-15'>
@@ -20,8 +22,12 @@ const FeaturedProjects = () => {
                     </div>
 
                     <div className='py-8 flex gap-2'>
-                        <button className='py-2 px-5 uppercase border-[1px] border-[#363636] rounded-4xl leading-none'>Brand Identity</button>
-                        <button className='py-2 px-5 uppercase border-[1px] border-[#3d3d3d] rounded-4xl leading-none'>Pich Deck</button>
+                       <a className=' animated-button py-2 px-5 uppercase border-[1px] border-[#3d3d3d] rounded-4xl leading-none' href="#" >
+                          <span>CONFERENCE</span>
+                       </a>
+                        <a className='animated-button py-2 px-5 uppercase border-[1px] border-[#3d3d3d] rounded-4xl leading-none'>
+                            <span>Pich Deck</span>
+                        </a>
                     </div>
                 </div>
 
@@ -36,9 +42,15 @@ const FeaturedProjects = () => {
                     </div>
 
                     <div className='py-4 flex gap-2'>
-                        <button className='py-2 px-5 uppercase border-[1px] border-[#363636] rounded-4xl leading-none'>Conference</button>
-                        <button className='py-2 px-5 uppercase border-[1px] border-[#3d3d3d] rounded-4xl leading-none'>Executive Keynote</button>
-                        <button className='py-2 px-5 uppercase border-[1px] border-[#3d3d3d] rounded-4xl leading-none'>Product Launch</button>
+                        <a className='animated-button py-2 px-5 uppercase border-[1px] border-[#363636] rounded-4xl leading-none'>
+                            <span>Conference</span>
+                        </a>
+                        <a className='animated-button py-2 px-5 uppercase border-[1px] border-[#3d3d3d] rounded-4xl leading-none'>
+                            <span>Executive Keynote</span>
+                        </a>
+                        <a className='animated-button py-2 px-5 uppercase border-[1px] border-[#3d3d3d] rounded-4xl leading-none'>
+                            <span>Product Launch</span>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -55,7 +67,9 @@ const FeaturedProjects = () => {
                     </div>
 
                     <div className='py-8 flex gap-2'>
-                        <button className='py-2 px-5 uppercase border-[1px] border-[#363636] rounded-4xl leading-none'>Pitch Deck</button>
+                        <a className='animated-button py-2 px-5 uppercase border-[1px] border-[#363636] rounded-4xl leading-none'>
+                            <span>Pitch Deck</span>
+                        </a>
                     </div>
                 </div>
 
@@ -70,8 +84,10 @@ const FeaturedProjects = () => {
                     </div>
 
                     <div className='py-4 flex gap-2'>
-                        <button className='py-2 px-5 uppercase border-[1px] border-[#363636] rounded-4xl leading-none'>Agency</button>
-                        <button className='py-2 px-5 uppercase border-[1px] border-[#3d3d3d] rounded-4xl leading-none'>Company Presentation</button>
+                        
+                        <a className='animated-button py-2 px-5 uppercase border-[1px] border-[#3d3d3d] rounded-4xl leading-none'>
+                            <span>Company Presentation</span>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -88,8 +104,12 @@ const FeaturedProjects = () => {
                     </div>
 
                     <div className='py-8 flex gap-2'>
-                        <button className='py-2 px-5 uppercase border-[1px] border-[#363636] rounded-4xl leading-none'>Branded Template</button>
-                        <button className='py-2 px-5 uppercase border-[1px] border-[#363636] rounded-4xl leading-none'>Sales Deck</button>
+                        <a className='animated-button py-2 px-5 uppercase border-[1px] border-[#363636] rounded-4xl leading-none'>
+                            <span>Branded Template</span>
+                        </a>
+                        <a className='animated-button py-2 px-5 uppercase border-[1px] border-[#363636] rounded-4xl leading-none'>
+                            <span>Sales Deck</span>
+                        </a>
                     </div>
                 </div>
 
@@ -104,10 +124,18 @@ const FeaturedProjects = () => {
                     </div>
 
                     <div className='py-4 flex gap-2'>
-                        <button className='py-2 px-5 uppercase border-[1px] border-[#363636] rounded-4xl leading-none'>Audit</button>
-                        <button className='py-2 px-5 uppercase border-[1px] border-[#3d3d3d] rounded-4xl leading-none'>Copywriting</button>
-                        <button className='py-2 px-5 uppercase border-[1px] border-[#3d3d3d] rounded-4xl leading-none'>Sales Deck</button>
-                        <button className='py-2 px-5 uppercase border-[1px] border-[#3d3d3d] rounded-4xl leading-none'>Slide Design</button>
+                        <a className='animated-button py-2 px-5 uppercase border-[1px] border-[#363636] rounded-4xl leading-none'>
+                            <span>Audit</span>
+                        </a>
+                        <a className='animated-button py-2 px-5 uppercase border-[1px] border-[#3d3d3d] rounded-4xl leading-none'>
+                            <span>Copywriting</span>
+                        </a>
+                        <a className='animated-button py-2 px-5 uppercase border-[1px] border-[#3d3d3d] rounded-4xl leading-none'>
+                            <span>Sales Deck</span>
+                        </a>
+                        <a className='animated-button py-2 px-5 uppercase border-[1px] border-[#3d3d3d] rounded-4xl leading-none'>
+                            <span>Slide Design</span>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -124,8 +152,12 @@ const FeaturedProjects = () => {
                     </div>
 
                     <div className='py-8 flex gap-2'>
-                        <button className='py-2 px-5 uppercase border-[1px] border-[#363636] rounded-4xl leading-none'>Brand Identity</button>
-                        <button className='py-2 px-5 uppercase border-[1px] border-[#363636] rounded-4xl leading-none'>Pitch Deck</button>
+                        <a className='animated-button py-2 px-5 uppercase border-[1px] border-[#363636] rounded-4xl leading-none'>
+                            <span>Brand Identity</span>
+                        </a>
+                        <a className='animated-button py-2 px-5 uppercase border-[1px] border-[#363636] rounded-4xl leading-none'>
+                            <span>Pitch Deck</span>
+                        </a>
                     </div>
                 </div>
 
@@ -140,9 +172,15 @@ const FeaturedProjects = () => {
                     </div>
 
                     <div className='py-4 flex gap-2'>
-                        <button className='py-2 px-5 uppercase border-[1px] border-[#363636] rounded-4xl leading-none'>Brand Identity</button>
-                        <button className='py-2 px-5 uppercase border-[1px] border-[#3d3d3d] rounded-4xl leading-none'>Design Research</button>
-                        <button className='py-2 px-5 uppercase border-[1px] border-[#3d3d3d] rounded-4xl leading-none'>Investor Deck</button>
+                        <a className='animated-button py-2 px-5 uppercase border-[1px] border-[#363636] rounded-4xl leading-none'>
+                            <span>Brand Identity</span>
+                        </a>
+                        <a className='animated-button py-2 px-5 uppercase border-[1px] border-[#3d3d3d] rounded-4xl leading-none'>
+                            <span>Design Research</span>
+                        </a>
+                        <a className='animated-button py-2 px-5 uppercase border-[1px] border-[#3d3d3d] rounded-4xl leading-none'>
+                            <span>Investor Deck</span>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -159,9 +197,15 @@ const FeaturedProjects = () => {
                     </div>
 
                     <div className='py-8 flex gap-2'>
-                        <button className='py-2 px-5 uppercase border-[1px] border-[#363636] rounded-4xl leading-none'>Branded Template</button>
-                        <button className='py-2 px-5 uppercase border-[1px] border-[#363636] rounded-4xl leading-none'>Sales Deck</button>
-                        <button className='py-2 px-5 uppercase border-[1px] border-[#363636] rounded-4xl leading-none'>Social Media Templates</button>
+                        <a className='animated-button py-2 px-5 uppercase border-[1px] border-[#363636] rounded-4xl leading-none'>
+                            <span>Branded Template</span>
+                        </a>
+                        <a className='animated-button py-2 px-5 uppercase border-[1px] border-[#363636] rounded-4xl leading-none'>
+                            <span>Sales Deck</span>
+                        </a>
+                        <a className='animated-button py-2 px-5 uppercase border-[1px] border-[#363636] rounded-4xl leading-none'>
+                            <span>Social Media Templates</span>
+                        </a>
                     </div>
                 </div>
 
@@ -176,16 +220,23 @@ const FeaturedProjects = () => {
                     </div>
 
                     <div className='py-4 flex gap-2'>
-                        <button className='py-2 px-5 uppercase border-[1px] border-[#363636] rounded-4xl leading-none'>Branded Template</button>
+                        <a className='animated-button py-2 px-5 uppercase border-[1px] border-[#363636] rounded-4xl leading-none'>
+                            <span>Branded Template</span>
+                        </a>
                     </div>
                 </div>
             </div>
 
             <div className='w-full flex items-center justify-center pb-20'>
-                <button className='py-5 px-5 flex items-center justify-center gap-5 bg-[#252525] border-[1px] border-[#252525] rounded-4xl uppercase leading-none'>
-                    View All Case Studies
-                    <div className='w-[0.8vw] h-[0.8vw] rounded-full bg-white'></div>
-                </button>
+                 <div className='About-button'>
+                     <button className='animated-button-2 bg-[#202020]  rounded-4xl py-2 px-7 ml-15 mt-3 font-semibold uppercase text-white flex gap-5'>View all case studies
+                         <div className="animated-button-2-icon w-8  h-8 rounded-full flex justify-center items-center cursor-pointer ">
+                             <span className="-rotate-50 ">
+                                  <FaArrowRight />
+                             </span>
+                         </div>
+                    </button>
+                </div>
             </div>
         </div>
     )
