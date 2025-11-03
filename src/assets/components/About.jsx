@@ -34,10 +34,10 @@ const About = () => {
             <div className=" items-start lg:items-end md:justify-self-end mt-65 ">
                     <p className="mb-2">S:</p>
                         <ul className="text-[1.2vw] list-none space-y-1 mr-50">
-                          <li><a href="#" className="underline hover:text-blue-600">Instagram</a></li>
-                          <li><a href="#" className="underline hover:text-blue-600">Behance</a></li>
-                          <li><a href="#" className="underline hover:text-blue-600">Facebook</a></li>
-                          <li><a href="#" className="underline hover:text-blue-600">LinkedIn</a></li>
+                          <li><a href="#" className="text-line underline hover:text-blue-600">Instagram</a></li>
+                          <li><a href="#" className="text-line underline hover:text-blue-600">Behance</a></li>
+                          <li><a href="#" className="text-line underline hover:text-blue-600">Facebook</a></li>
+                          <li><a href="#" className="text-line underline hover:text-blue-600">LinkedIn</a></li>
                         </ul>
               </div>
         </div>

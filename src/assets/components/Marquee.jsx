@@ -3,7 +3,7 @@ import React from 'react';
 
 const Marquee = () => {
   return (
-  <div className=" w-full h-[4vh] ">
+  <div className=" w-full h-[full] ">
           <div  className="w-full py-30 bg-[#004d43] rounded-tl-3xl rounded-tr-3xl overflow-hidden">
           <div className="text-container border-t-2 border-b-2 border-zinc-300 flex whitespace-nowrap">
             <motion.h1

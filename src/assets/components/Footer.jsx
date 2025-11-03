@@ -22,28 +22,28 @@ const Footer = () => {
                  <h1 className='text-8xl uppercase font-bold  leading-[11vh] -tracking-[0.2vw]'>Presentation</h1>
                  <div className='flex flex-col mt-10'>
                     <h4 className='text-2xl mb-5'>S:</h4>
-                    <a className='block text-[1.1vw] font-light tracking-tight' href="#">Instagram</a>
-                    <a className='block text-[1.1vw] font-light tracking-tight' href="#">Behance</a>
-                    <a className='block text-[1.1vw] font-light tracking-tight' href="#">Facebook</a>
-                    <a className='block text-[1.1vw] font-light tracking-tight' href="#">LinkedIN</a>
+                    <a className='text-line-2 block text-[1.1vw] font-light tracking-tight' href="#">Instagram</a>
+                    <a className='text-line-2 block text-[1.1vw] font-light tracking-tight' href="#">Behance</a>
+                    <a className='text-line-2 block text-[1.1vw] font-light tracking-tight' href="#">Facebook</a>
+                    <a className='text-line-2 block text-[1.1vw] font-light tracking-tight' href="#">LinkedIN</a>
                  </div>
 
                  <div className='flex justify-between '>
                         <div className='flex flex-col mt-10'>
                             <h4 className='text-2xl mb-5'>L:</h4>
-                            <a className='block text-[1.1vw] font-light tracking-tight ' href="#">202-1965 W 4th Ave</a>
-                            <a className='block text-[1.1vw] font-light tracking-tight ' href="#">Vancouver, Canada</a>
-                            <a className='block text-[1.1vw] font-light tracking-tight ' href="#">30 Chukarina St</a>
-                            <a className='block text-[1.1vw] font-light tracking-tight ' href="#">Lviv, Ukraine</a>
+                            <a className='text-line-3 block text-[1.1vw] font-light tracking-tight ' href="#">202-1965 W 4th Ave</a>
+                            <a className='text-line-3 block text-[1.1vw] font-light tracking-tight ' href="#">Vancouver, Canada</a>
+                            <a className='text-line-3 block text-[1.1vw] font-light tracking-tight ' href="#">30 Chukarina St</a>
+                            <a className='text-line-3 block text-[1.1vw] font-light tracking-tight ' href="#">Lviv, Ukraine</a>
                         </div>
                         <div className='flex flex-col mt-10'>
                             <h4 className='text-2xl mb-5'>M:</h4>
-                            <a className='block text-[1.1vw] font-light tracking-tight ' href="#">Home</a>
-                            <a className='block text-[1.1vw] font-light tracking-tight ' href="#">Services</a>
-                            <a className='block text-[1.1vw] font-light tracking-tight ' href="#">Our work</a>
-                            <a className='block text-[1.1vw] font-light tracking-tight ' href="#">About us</a>
-                            <a className='block text-[1.1vw] font-light tracking-tight ' href="#">Insights</a>
-                            <a className='block text-[1.1vw] font-light tracking-tight ' href="#">Contact us</a>
+                            <a className='text-line-3 block text-[1.1vw] font-light tracking-tight ' href="#">Home</a>
+                            <a className='text-line-3 block text-[1.1vw] font-light tracking-tight ' href="#">Services</a>
+                            <a className='text-line-3 block text-[1.1vw] font-light tracking-tight ' href="#">Our work</a>
+                            <a className='text-line-3 block text-[1.1vw] font-light tracking-tight ' href="#">About us</a>
+                            <a className='text-line-3 block text-[1.1vw] font-light tracking-tight ' href="#">Insights</a>
+                            <a className='text-line-3 block text-[1.1vw] font-light tracking-tight ' href="#">Contact us</a>
                         </div>
                  </div>
                         
@@ -53,9 +53,9 @@ const Footer = () => {
                     </div>
                     <div className='flex justify-between mt-10 opacity-20 mb-3'>
                            <span className='flex justify-center items-center gap-1'>
-                            © ochi design 2025.<a className='block text-[1.1vw] font-light tracking-tight ' href="#"> Legal Terms</a>
+                            © ochi design 2025.<a className=' text-line-3  block text-[1.1vw] font-light tracking-tight ' href="#"> Legal Terms</a>
                            </span>
-                            <a className='block text-[1.1vw] font-light tracking-tight ' href="#">Website by Obys</a>
+                            <a className='text-line-3 block text-[1.1vw] font-light tracking-tight ' href="#">Website by Obys</a>
                     </div>
             </div>
     </div>

@@ -40,11 +40,7 @@ const Review = () => {
   };
 
   return (
-    <div
-      data-scroll-section
-      data-scroll
-      data-scroll-speed="0.1"
-      className="w-full">
+    <div className="w-full">
       <div className="w-full mb-15 px-15">
         <h1 className="text-6xl  font-extralight leading-none tracking-tighter">
           Clients’ reviews
@@ -75,7 +71,7 @@ const Review = () => {
             </div>
 
             <div className="flex-1 text-right">
-              <button className=" text-lg font-light">
+              <button className="text-line-3  text-lg font-light">
                 {openIndex === index ? 'CLOSE' : 'READ'}
               </button>
             </div>
